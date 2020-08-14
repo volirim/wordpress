@@ -79,7 +79,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gifts .join_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -127,13 +127,14 @@ text-align: center;
 
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
-font-family: Roboto;
-font-size: 30px;
-font-weight: 400;
-line-height: 12px;
-text-transform: uppercase;
-text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
 }
+
 .finish .finish_header {
     color: white;
 }
@@ -252,4 +253,99 @@ text-align: center;
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.gifts {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+
+.gift .gift_box {
+    display: block;
+    margin: 0 auto;
+}
+
+.gifts .gift_text {
+    margin-top: 42px;
+    text-align: center;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.gift .join_btn {
+    margin-top: 52px;
+}
+
+.firstWeb {
+    min-height: 515px;
+    padding: 82px 0 64px 0;
+}
+
+.firstWeb_header .firstWeb_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.firstWeb_header .firstWeb_header_text {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.firstWeb_header .firstWeb_text1 {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.firstWeb_header .firstWeb_text2 {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer {
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.footer .support, .footer .call_us {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a {
+    color: #888888;
+}
+
+.footer .call_us {
+    margin-top: 21px;
+    text-decoration: none;
+}
+
+.footer .support span {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
 }
